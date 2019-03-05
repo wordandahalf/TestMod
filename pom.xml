@@ -19,6 +19,13 @@
             <artifactId>Blueprint</artifactId>
             <version>0.1.0</version>
         </dependency>
+        <dependency>
+            <groupId>equilinox</groupId>
+            <artifactId>Equilinox</artifactId>
+            <version>1.0</version> <!-- Dummy Version -->
+            <scope>system</scope>
+            <systemPath>E:/Programs/Program Files (x86)/Steam/steamapps/common/Equilinox/EquilinoxWindows.jar</systemPath>
+        </dependency>
     </dependencies>
 
     <build>

@@ -8,6 +8,10 @@
     <artifactId>TestMod</artifactId>
     <version>1.0</version>
 
+    <properties>
+        <equilinoxPath>D:\Programs\Program Files (x86)\Steam\steamapps\common\Equilinox\EquilinoxWindows.jar</equilinoxPath>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>equilinoxmodkit</groupId>
@@ -20,11 +24,11 @@
             <version>0.1.0</version>
         </dependency>
         <dependency>
-            <groupId>equilinox</groupId>
-            <artifactId>Equilinox</artifactId>
-            <version>1.0</version> <!-- Dummy Version -->
+            <groupId>com.equilinox</groupId>
+            <artifactId>Equilinox-Windows</artifactId>
+            <version>1.5.0</version>
             <scope>system</scope>
-            <systemPath>E:/Programs/Program Files (x86)/Steam/steamapps/common/Equilinox/EquilinoxWindows.jar</systemPath>
+            <systemPath>${equilinoxPath}</systemPath>
         </dependency>
     </dependencies>
 
